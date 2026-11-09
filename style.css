@@ -1,0 +1,102 @@
+body {
+    background-color: #EAF6FF;
+    color: #334155;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+header {
+    background-color: #0B1F3A;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(11, 31, 58, 0.2);
+}
+.heading {
+    color: #FFFFFF;
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+header p {
+    color: #BAE6FD;
+    font-size: 16px;
+}
+.image {
+    text-align: center;
+}
+.image img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #38BDF8;
+    margin: 15px auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+}
+section {       /* Education Section */
+    background-color: #FFFFFF;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #BAE6FD;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(11, 31, 58, 0.08);
+}
+h2 {. /* Education, Skills and Hobbies Headings */
+    color: #0B1F3A;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 3px solid #38BDF8;
+    padding-bottom: 8px;
+}
+ul {
+    padding-left: 25px;
+}
+li {
+    margin-bottom: 12px;
+    font-size: 17px;
+    color: #334155;
+}
+.skills {
+    background-color: ;
+    border-left: 5px solid #38BDF8;
+}
+
+/* Hobbies Section */
+.hobbies {
+    background-color: #FFFFFF;
+    border-left: 5px solid #0B1F3A;
+}
+/* Horizontal Divider */
+hr {
+    border: none;
+    border-top: 2px solid #BAE6FD;
+}
+
+/* Footer and Contact Information */
+footer {
+    background-color: #0B1F3A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+a {
+    color: #0284C7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hyperlink Hover Effect */
+a:hover {
+    color: #0B1F3A;
+    text-decoration: underline;
+}
